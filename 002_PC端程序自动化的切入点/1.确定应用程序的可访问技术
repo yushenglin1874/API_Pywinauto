@@ -1,0 +1,8 @@
+如何确定应用程序的可访问技术（pywinauto的后端）
+
+支持控件的访问技术：
+1.Win32 API（backend = “win32”），默认的backend
+    MFC，VB6，VCL 简单的WinForms控件和大多数旧的应用程序；
+2.MS UI Automation API（backend = “uia”）
+    WinForms ，WPF，Store， Qt5，浏览器
+
